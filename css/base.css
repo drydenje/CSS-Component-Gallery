@@ -1,0 +1,36 @@
+:root {
+  --base-font-size: 62.5%;
+  --font-weight-light: 100;
+  --font-weight-regular: 400;
+  --font-weight-bold: 600;
+  --heading-font-family: "Oswald", "sans-serif";
+  --heading-font-weight: var(--font-weight-regular);
+  --heading-font-size: var(--base-font-size);
+  --heading-line-height: 1.4rem;
+  --body-font-family: "Open Sans", "sans-serif";
+  --body-font-weight: var(--font-weight-regular);
+  --body-font-size: var(--base-font-size);
+  --body-line-height: 1.5rem;
+}
+
+:root {
+  --widthRegular: 1000px;
+  --widthTablet: 800px;
+  --widthMobile: 750px;
+}
+
+:root {
+  --colorMain1: #003459;
+  --colorMain2: #ebebeb;
+  --colorAccent: #6bcee1;
+  --colorWhite: #fafafa;
+  --colorBlack: #323232;
+  --colorLightGrey: #e4e7eb;
+}
+
+html {
+  font-family: var(--body-font-family);
+  font-weight: var(--body-font-weight);
+  font-size: var(--base-font-size);
+  line-height: var(--body-line-height);
+}
