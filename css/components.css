@@ -1,0 +1,56 @@
+aside.sideLinks {
+  /* float: left; */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cell {
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+button {
+  width: 70px;
+  height: 32px;
+  margin: 6px;
+
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.04rem;
+}
+
+button.primary {
+  color: var(--colorMain2);
+  background-color: var(--colorMain1);
+  font-weight: var(--font-weight-normal);
+}
+
+button.secondaryA {
+  color: var(--colorBlack);
+  background-color: var(--colorLightGrey);
+}
+
+button.secondaryB {
+  color: var(--colorBlack);
+  background-color: var(--colorWhite);
+}
+
+button.secondaryC {
+  color: var(--colorBlack);
+  background-color: var(--colorWhite);
+}
+
+.smallRounded {
+  border-radius: 5px;
+}
+
+.largeRounded {
+  border-radius: 10px;
+}
+
+.fullRounded {
+  border-radius: 20px;
+}
