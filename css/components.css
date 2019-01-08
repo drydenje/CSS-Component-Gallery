@@ -58,3 +58,8 @@ button.secondaryC {
 .fullRounded {
   border-radius: 20px;
 }
+
+/* not used yet */
+.shadowInset {
+  box-shadow: 0 2px 0 hsla(0, 0%, 100%, 0.15);
+}
